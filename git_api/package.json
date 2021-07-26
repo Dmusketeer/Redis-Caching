@@ -1,0 +1,29 @@
+{
+  "name": "redis-caching",
+  "version": "1.0.0",
+  "description": "- Redis Caching in Nodejs <hr />\r [Redis Commands Cheat Sheet](https://simplecheatsheet.com/tag/redis-cheat-sheet/#redis-commands)",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmusketeer/Redis-Caching.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmusketeer/Redis-Caching/issues"
+  },
+  "homepage": "https://github.com/Dmusketeer/Redis-Caching#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
